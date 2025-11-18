@@ -1,3 +1,3 @@
 # Team-12
 
-Project final test
+Ecommerce store based on selling items of clothing
