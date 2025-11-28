@@ -600,3 +600,31 @@ textarea {
   font-size: 14px;
 }
 /* end of sign in page css code */
+
+/*light-dark mode */
+#theme-switch{
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  border-radius: 50%;
+  background-color: var(--base-variant);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 20px;
+}
+/*will display and hide other icon while in use for example night icon if its light mode and day icon if dark mode is on*/
+#theme-switch svg:last-child{
+  display: none;
+}
+/*will make moon icon visible while its light mode*/
+.darkmode #theme-switch svg:first-child{
+  display: none;
+}
+/*will make sun icon visible while its light mode*/
+/*this logic is used so only 1 icon is dislayed*/
+.darkmode #theme-switch svg:last :last-child{
+  display: block;
+}
