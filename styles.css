@@ -640,7 +640,9 @@ textarea {
 #theme-switch .sun {
   display: block;
 }
-
+#theme-switch .moon {
+  display: none;
+}
 
 /* DARK MODE: show MOON, hide SUN */
 .darkmode #theme-switch .sun {
