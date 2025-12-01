@@ -645,8 +645,7 @@ textarea {
   position: fixed;
   top: 0px;
   right: 20px;
-}
-/* Default (light mode): show SUN */
+}/* Default (light mode): show SUN */
 #theme-switch .sun {
   display: block;
 }
@@ -667,6 +666,7 @@ textarea {
   fill: var(--ink);
   stroke: var(--ink);
 }
+
 
 
 

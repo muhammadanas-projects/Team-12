@@ -24,7 +24,7 @@ themeSwitch.addEventListener("click", () => {
 });
 
 
-// darkmode.js handles ONLY!!! theme switching logic.
+// darkmode.js handles ONLY!!! theme switching logic..
 // This separates theme code from the main app.js for better organization.
 
 
