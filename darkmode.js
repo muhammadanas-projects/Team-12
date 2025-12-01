@@ -1,3 +1,5 @@
+
+
 let darkmode = localStorage.getItem('darkmode');
 const themeSwitch = document.getElementById('theme-switch');
 
@@ -18,7 +20,11 @@ if (darkmode === "active") enableDarkmode();
 themeSwitch.addEventListener("click", () => {
     darkmode = localStorage.getItem('darkmode');
     darkmode !== "active" ? enableDarkmode() : disableDarkmode();
+
 });
+
 
 // darkmode.js handles ONLY!!! theme switching logic.
 // This separates theme code from the main app.js for better organization.
+
+

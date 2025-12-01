@@ -27,6 +27,16 @@ html,body{
    margin:0;
   padding:0; 
 }
+/* dark background for the button */
+.darkmode {
+  --bg: #0b0f17;      
+  --ink: #ffffff;     
+  --ink-2: #c7c7c7;   
+  --ink-3: #9a9a9a;   
+  --line: #2a2f3a;    
+  --brand: #ffffff;   
+  --sale: #ff4d4d;    
+}
 
 body{
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
